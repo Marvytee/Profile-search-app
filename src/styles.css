@@ -1,0 +1,48 @@
+*, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(rgb(187, 7, 187), yellow);
+    width: 80%;
+    margin: 0 auto;
+}
+.container {
+    margin-top: 2%;
+}
+.input{
+    width: 100%;
+    padding: 1%;
+    font-style: italic;
+    color: rgb(167, 166, 166);
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+main{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px 20px;
+}
+.profile-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 10px;
+}
+.profile-container > div > p {
+    font-size: 13px;
+    color: rgb(104, 103, 103);
+    margin-bottom: 5px;
+}
+.profile-container > div > h4{
+    font-size: 14px;
+    color: rgb(58, 57, 57);
+}
