@@ -21,7 +21,7 @@ export default function App(props) {
                 {filtered.map(item => {
                     return (
                         <div className="profile-container">
-                            <img src={item.picture}/>
+                            <img src={item.picture} alt="ProfileImage"/>
                             <div>
                                 <p>{item.id}</p>
                                 <h4>{item.title}. {item.firstName} {item.lastName}</h4>
